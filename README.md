@@ -3,7 +3,7 @@ This project is an AI-powered agent designed to process and analyze energy-relat
 
 ## Features and Recommended Dependencies
 - **PipeDream**: iPaaS (Integration Platform as a Service / Orchestration)
-- **Gravity Forms (WordPress)**: Webhook Trigger 
+- **Forms, E-Commerce Events, Booking Systems or Custome Code**: Webhook Trigger 
 - **Data Extraction**: Extract Data from PDF using `Extract_Data.js`.
 - **Google AI Integration**: Utilize Google AI APIs via `GoogleAI_API.js`.
 - **Solar Calculations**: Solar Energy Calculations with `Solar_Calculation.js`.
