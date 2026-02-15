@@ -13,30 +13,30 @@ This project is an AI-powered agent designed to process and analyze energy-relat
 
 ## API Credentials
 This project requires a Google Cloud and CloudConvert Keys for the Vision API.
-1. Include the `Synergy_GoogleVisionAPIDummy.json` file in your project directory.
-2. Edit `Synergy_GoogleVisionAPIDummy.json` and replace the placeholder values with your actual credentials:
+- Include the `Synergy_GoogleVisionAPIDummy.json` file in your project directory.
+- Edit `Synergy_GoogleVisionAPIDummy.json` and replace the placeholder values with your actual credentials:
    - `project_id`: Your Google Cloud project ID
    - `private_key_id`: Your private key ID
    - `private_key`: Your private key (including the BEGIN and END markers)
    - `client_email`: Your service account email
    - `client_id`: Your client ID
-3. Never commit JSON file to version control. Ensure it is added to `.gitignore`.
+- Never commit JSON file to version control. Ensure it is added to `.gitignore`.
 
 ## Usage
 Use PipeDream or N8N as Orchestration
 ```
 Steps Required
-1. Webhook Trigger 
-2. Node JS Code (4 Actions)
-3. Google Sheets - Add Single Row (Optional Database)
-4. EmailOctopus - Add Subscriber to List (Send Analysis)
+- Webhook Trigger 
+- Node JS Code (4 Actions)
+- Google Sheets - Add Single Row (Optional Database)
+- EmailOctopus - Add Subscriber to List (Send Analysis)
 ```
 
 Run the JavaScript per Tasks
 ```
-- Extract Data: `node Extract_Data.js`
-- Solar Calculations: `node Solar_Calculation.js`
-- Transform kWh Data: `node Transform_kWh.js`
+- Extract Data: "node Extract_Data.js"
+- Solar Calculations: "node Solar_Calculation.js"
+- Transform kWh Data: "node Transform_kWh.js"
 ```
 
 ## License
